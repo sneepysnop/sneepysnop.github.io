@@ -1,0 +1,13 @@
+h1 {
+    border: solid 2px; 
+    text-align: center;
+    border-color: rgb(37, 72, 226);
+    border-radius: 50px;
+}
+button {
+    border-radius: 50px;
+    cursor:crosshair;
+}
+img{
+    cursor:wait;
+}
