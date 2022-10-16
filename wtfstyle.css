@@ -1,0 +1,104 @@
+body{
+    background-color: rgba(221, 221, 255, 0.555);
+}
+
+button {
+    color: rgb(67, 59, 104);
+    background-color: rgba(247, 213, 237, 0.795);
+    border-radius: 100px;
+    border-style: none;
+    border: solid 2px rgb(67, 59, 104);
+    cursor: pointer;
+    font-size: 18px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 30px;
+}
+
+button:hover {
+    background-color: rgb(177, 160, 209);
+    opacity: 50px; 
+    transition: background-color 0.5s;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 12px 15px 0 rgba(0,0,0,0.19);
+}
+
+.container {
+    display: flex;
+    border-bottom: solid 1px rgb(53, 45, 87);
+    margin:auto;
+    justify-content:flex-end;
+    align-items: left;
+    height:auto;
+}
+
+.item {
+    margin: 5px;
+    padding: auto;
+
+}
+
+.title {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 35px;
+    margin-right:auto;
+    color: rgba(54, 48, 83, 0.877);
+    cursor:default;
+}
+
+.title:hover {
+    color: rgba(143, 143, 233, 0.548);
+    transition: color 2s;
+}
+
+.grid-container {
+    display:grid;
+    grid-template: repeat(3, auto)/ repeat(3,auto);
+    border: 2px dashed rgb(53, 45, 87);
+    margin: 15px;
+    grid-template-areas:
+    "header header header"
+    "item-1 item-2 item-3"
+    "item-1 item-4 item-3";
+}
+
+.grid-item {
+    font-family:Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(177, 160, 209);
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+}
+.grid-item:hover {
+background-color: rgba(83, 83, 83, 0.507);
+color:rgba(255, 255, 255, 0.877);
+transition:1.5s;
+}
+
+.item-1 {
+grid-area: item-1;
+}
+.item-2 {
+    grid-area: item-2
+}
+.item-3 {
+    grid-area: item-3;
+}
+.item-4 {
+    grid-area: item-4;
+}
+.header {
+    grid-area: header;
+    border: 0;
+    border-radius: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.header:hover {
+    background-color: rgba(23, 6, 63, 0.795);
+    color:rgba(255, 254, 173, 0.877);
+    transition:3s;   
+}
+.image {
+    border-radius: 2px;
+    margin: 15px;
+}
