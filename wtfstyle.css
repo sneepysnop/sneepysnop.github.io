@@ -79,9 +79,11 @@ transition:1.5s;
 .item-1 {
 grid-area: item-1;
 border: 0;
+cursor:wait;
 }
 .item-1:hover {
     background-color:rgba(240, 248, 255, 0);
+    cursor: wait;
 }
 .item-2 {
     grid-area: item-2
@@ -99,12 +101,14 @@ border: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     transition: 2s;
+    cursor:default;
 }
 .header:hover {
     background-color: rgba(23, 6, 63, 0.795);
     color:rgba(255, 254, 173, 0.877);
     font-size:50px;
-    transition:2s;   
+    transition:2s; 
+    cursor:default; 
 }
 
 .image {
