@@ -71,9 +71,10 @@ button:hover {
     padding: 3px;
 }
 .grid-item:hover {
-background-color: rgba(83, 83, 83, 0.507);
+background-color: rgba(83, 83, 83, 0.274);
 color:rgba(255, 255, 255, 0.877);
 transition:1.5s;
+cursor:default;
 }
 
 .item-1 {
@@ -97,7 +98,7 @@ cursor:wait;
 .header {
     grid-area: header;
     border: 0;
-    border-radius: 50px;
+    border-radius: 0px 100px 0px 100px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     transition: 2s;
@@ -106,7 +107,7 @@ cursor:wait;
 .header:hover {
     background-color: rgba(23, 6, 63, 0.795);
     color:rgba(255, 254, 173, 0.877);
-    font-size:50px;
+    font-size:30px;
     transition:2s; 
     cursor:default; 
 }
@@ -115,7 +116,6 @@ cursor:wait;
     border-radius: 2px;
     margin: 15px;
     transition: width 3s, height 3s, transform, 3s;
-    float: center;
 }
 .image:hover {
     
