@@ -56,6 +56,7 @@ button:hover {
     grid-template: repeat(3, auto)/ repeat(3,auto);
     border: 2px dashed rgb(53, 45, 87);
     margin: 15px;
+    transition: 3s;
     grid-template-areas:
     "header header header"
     "item-1 item-2 item-3"
@@ -77,6 +78,10 @@ transition:1.5s;
 
 .item-1 {
 grid-area: item-1;
+border: 0;
+}
+.item-1:hover {
+    background-color:rgba(240, 248, 255, 0);
 }
 .item-2 {
     grid-area: item-2
@@ -105,10 +110,11 @@ grid-area: item-1;
 .image {
     border-radius: 2px;
     margin: 15px;
-    transition: width 2s, height 2s, transform, 2s;
+    transition: width 3s, height 3s, transform, 3s;
+    float: center;
 }
 .image:hover {
-    filter:grayscale(100%);
+    
     transform: rotate(360deg);
-    transition: 2s;
+    transition: 3s;
 }
