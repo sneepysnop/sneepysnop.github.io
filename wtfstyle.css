@@ -12,12 +12,14 @@ button {
     font-size: 18px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 30px;
+    transition: 1s;
 }
 
 button:hover {
     background-color: rgb(177, 160, 209);
     opacity: 50px; 
-    transition: background-color 0.5s;
+    font-size:21px;
+    transition: background-color 1s;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 12px 15px 0 rgba(0,0,0,0.19);
 }
 
@@ -91,20 +93,22 @@ grid-area: item-1;
     border-radius: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
+    transition: 2s;
 }
 .header:hover {
     background-color: rgba(23, 6, 63, 0.795);
     color:rgba(255, 254, 173, 0.877);
-    
-    transition:3s;   
+    font-size:50px;
+    transition:2s;   
 }
 
 .image {
     border-radius: 2px;
     margin: 15px;
-    transition: width 2s, height 2s, transform, 0.5s;
+    transition: width 2s, height 2s, transform, 2s;
 }
 .image:hover {
     filter:grayscale(100%);
-    transform: rotate(180deg);
+    transform: rotate(360deg);
+    transition: 2s;
 }
