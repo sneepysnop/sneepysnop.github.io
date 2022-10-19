@@ -162,14 +162,17 @@ cursor:wait;
 .cat4{
     grid-area: cat4;
 }
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
+
 .content {
     padding:50px;
 }
+
 .sticky + .content {
     padding: 50px;
 
