@@ -137,30 +137,9 @@ cursor:wait;
     grid-template: repeat(3, auto)/ repeat(3,auto);
     grid-template-areas: 
     "header header header"
-    "cat1 cat2 cat3"
-    "cat1 cat2 cat4";
+    "item-3 item-2 item-1"
+    "item-4 item-2 item-1";
 
-}
-
-.secondary {
-    font-family:Arial, Helvetica, sans-serif;
-    border: 2px solid rgb(177, 160, 209);
-    text-align: center;
-    margin: 3px;
-    padding: 3px;
-}
-.cat1{
-    grid-area: cat1;
-    border: 0;
-}
-.cat2{
-    grid-area: cat2;
-}
-.cat3{
-    grid-area: cat3;
-}
-.cat4{
-    grid-area: cat4;
 }
 
 .sticky {
