@@ -9,9 +9,10 @@ button {
     border-style: none;
     border: solid 2px rgb(67, 59, 104);
     cursor: pointer;
-    font-size: 18px;
+    font-size: 25px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height: 30px;
+    height: 35px;
+    width: auto;
     transition: 1s;
 }
 
@@ -30,7 +31,7 @@ button:hover {
     margin:auto;
     justify-content:flex-end;
     align-items: left;
-    height:auto;
+    height: 55px;
     padding:auto;
 }
 .placeholder {
@@ -45,7 +46,7 @@ button:hover {
 
 .title {
     font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
-    font-size: 35px;
+    font-size: 50px;
     margin-right:auto;
     color: rgba(54, 48, 83, 0.877);
     cursor:default;
