@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(221, 221, 255, 0.555);
+    background-color: rgb(231, 231, 252);
 }
 
 button {
@@ -26,15 +26,20 @@ button:hover {
 .container {
     display: flex;
     border-bottom: solid 1px rgb(53, 45, 87);
+    background-color: rgba(231, 231, 252, 0.863);
     margin:auto;
     justify-content:flex-end;
     align-items: left;
     height:auto;
+    padding:auto;
+}
+.placeholder {
+    padding-right: 10px;
 }
 
 .item {
     margin: 5px;
-    padding: auto;
+    padding: 5px;
 
 }
 
@@ -56,6 +61,7 @@ button:hover {
     grid-template: repeat(3, auto)/ repeat(3,auto);
     border: 2px dashed rgb(53, 45, 87);
     margin: 15px;
+    padding: 15px;
     transition: 3s;
     grid-template-areas:
     "header header header"
@@ -121,4 +127,50 @@ cursor:wait;
     
     transform: rotate(360deg);
     transition: 3s;
+}
+
+.grid-container2 {
+    display:grid;
+    border: 2px dashed rgb(53, 45, 87);
+    margin: 15px;
+    padding: 15px;
+    grid-template: repeat(3, auto)/ repeat(3,auto);
+    grid-template-areas: 
+    "header header header"
+    "cat1 cat2 cat3"
+    "cat1 cat2 cat4";
+
+}
+
+.secondary {
+    font-family:Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(177, 160, 209);
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+}
+.cat1{
+    grid-area: cat1;
+    border: 0;
+}
+.cat2{
+    grid-area: cat2;
+}
+.cat3{
+    grid-area: cat3;
+}
+.cat4{
+    grid-area: cat4;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.content {
+    padding:50px;
+}
+.sticky + .content {
+    padding: 50px;
+
 }
