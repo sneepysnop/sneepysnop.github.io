@@ -5,21 +5,22 @@ body{
 button {
     color: rgb(67, 59, 104);
     background-color: rgba(247, 213, 237, 0.795);
-    border-radius: 100px;
+    border-radius: 80px;
     border-style: none;
     border: solid 2px rgb(67, 59, 104);
     cursor: pointer;
-    font-size: 25px;
+    font-size: 24px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 35px;
     width: auto;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 button:hover {
     background-color: rgb(177, 160, 209);
     opacity: 50px; 
-    font-size:21px;
+    font-size:26px;
+    width:auto;
     transition: background-color 1s;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 12px 15px 0 rgba(0,0,0,0.19);
 }
