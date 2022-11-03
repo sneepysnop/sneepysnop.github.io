@@ -14,6 +14,7 @@ button {
     height: 35px;
     width: auto;
     transition: 0.5s;
+    
 }
 
 button:hover {

@@ -1,3 +1,4 @@
+// This is the sticky header //
 window.onscroll = function(){myFunction()};
 var header = document.getElementById("navbar");
 var sticky = header.offsetTop;
@@ -8,3 +9,4 @@ function myFunction(){
         header.classList.remove("sticky");
     }
 }
+
