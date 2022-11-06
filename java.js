@@ -10,3 +10,8 @@ function myFunction(){
     }
 }
 
+//colour changer//
+function changeStyle(){
+    const background = document.querySelector("body");
+    background.style.backgroundColor = background.style.backgroundColor === "white" ? 'black' : 'white' ;
+}
