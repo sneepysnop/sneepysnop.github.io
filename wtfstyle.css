@@ -159,3 +159,7 @@ cursor:wait;
     padding: 50px;
 
 }
+
+.onClick {
+    align-items: center;
+}

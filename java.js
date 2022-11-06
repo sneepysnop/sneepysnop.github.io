@@ -13,5 +13,7 @@ function myFunction(){
 //colour changer//
 function changeStyle(){
     const background = document.querySelector("body");
-    background.style.backgroundColor = background.style.backgroundColor === "white" ? 'black' : 'white' ;
+    const header = document.querySelector(".container")
+    background.style.backgroundColor = background.style.backgroundColor === 'white' ? 'black' : 'white' ;
+    header.style.backgroundColor = header.style.backgroundColor === 'white' ? 'black' : 'white' ;
 }
